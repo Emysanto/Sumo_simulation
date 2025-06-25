@@ -1,0 +1,18 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<!--  generated on 2025-06-24 16:29:28 by Eclipse SUMO netedit Version 1.23.1
+ -->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+<!--  🚗 Vehicle Flows  -->
+<flow id="f_0" begin="0.00" from="-E0" to="-E0.55" end="3600.00" vehsPerHour="1800"/>
+<flow id="f_1" begin="0.00" from="E0" to="E1" end="3600.00" vehsPerHour="1800"/>
+<!--  🚶‍♀️ Pedestrian 1: Cross from right to left  -->
+<person id="ped1" depart="5.00" color="0,0,255">
+<walk from=":J1_w0" to=":clusterJ2_J4_J5_w0"/>
+<walk from=":clusterJ2_J4_J5_w0" to=":J0_w0"/>
+</person>
+<!--  🚶 Pedestrian 2: Cross from left to bottom  -->
+<person id="ped2" depart="15.00" color="255,0,0">
+<walk from=":J0_w0" to=":clusterJ2_J4_J5_w0"/>
+<walk from=":clusterJ2_J4_J5_w0" to="E1"/>
+</person>
+</routes>
